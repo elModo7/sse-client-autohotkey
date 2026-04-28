@@ -2,6 +2,14 @@
 
 This is an implementation of two ways of adding SSE event reader support for AutoHotkey scripts without relying on JavaScript.
 
+## Requirements
+
+This client requires a SSE server to be running, you can use this one as an example (compiled version in releases):
+
+https://github.com/elModo7/sse-server-go
+
+Start the server first, then run the AutoHotkey client.
+
 ## General Considerations
 
 - A feedback ping is mandatory every now and then, otherwise the connection may end up hanging up due to inactivity.

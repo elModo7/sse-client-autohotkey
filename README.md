@@ -2,6 +2,9 @@
 
 This is an implementation of two ways of handling SSE events in AutoHotkey scripts without relying on JavaScript.
 
+<img width="1107" height="463" alt="WindowsTerminal_JrZ6Mj9Iej" src="https://github.com/user-attachments/assets/11f18fe9-4f4e-4b38-ad0d-7025c6200764" />
+
+
 ## Requirements
 
 This client requires a SSE server to be running, you can use this one as an example (compiled version in releases):

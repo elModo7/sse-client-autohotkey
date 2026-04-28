@@ -1,6 +1,6 @@
 # SSE Client Example
 
-This is an implementation of two ways of adding SSE event reader support for AutoHotkey scripts without relying on JavaScript.
+This is an implementation of two ways of handling SSE events in AutoHotkey scripts without relying on JavaScript.
 
 ## Requirements
 

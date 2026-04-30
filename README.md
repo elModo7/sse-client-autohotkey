@@ -51,6 +51,9 @@ timeout := 120000 ; 120 seconds
 - The main script is no longer blocked by the response request, those responses come from the watcher process associated to it.
 - This method requires a GUI (can be hidden) to retrieve changes from the other process.
 
+## Credits
+- [Talk Library](https://www.autohotkey.com/board/topic/94321-talk-interscript-communication-provider-and-more/) by Avi Aryan
+
 
 
 

@@ -2,6 +2,11 @@
 
 This is an implementation of two ways of handling SSE events in AutoHotkey scripts without relying on JavaScript.
 
+It is useful for subscribing autohotkey scripts to workers, for example, you could have a python script that exposes an API for converting word files to pdf, this can sometimes take time.
+
+With this you could send a request to said API and instead of asking in a loop (polling) every now and then to see if the process is finished, you can just subscribe to a SSE endpoint in that python script and **receive the finished event just as it happens**.
+
+
 <img width="1107" height="463" alt="WindowsTerminal_JrZ6Mj9Iej" src="https://github.com/user-attachments/assets/11f18fe9-4f4e-4b38-ad0d-7025c6200764" />
 
 

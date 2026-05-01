@@ -47,6 +47,9 @@ timeout := 120000 ; 120 seconds
 
 ## Asynchronous Example
 
+> [!NOTE]
+> This version now supports automatic reconnects
+> 
 - This method uses a "hack" to provide a feeling of concurrency by starting a secondary process, the "SSE_Watcher" which is independent to the main script's process.
   
   It receives the GUI name that spawned it as its main parameter and is able to communicate with its parent process asynchronously via Windows events (WM_COPYDATA).

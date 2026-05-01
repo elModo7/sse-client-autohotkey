@@ -1,4 +1,5 @@
-﻿#NoEnv
+﻿; Version 1.1
+#NoEnv
 #SingleInstance Off
 #Persistent
 #NoTrayIcon
@@ -23,7 +24,11 @@ return
 
 
 StartSSE:
-    ConnectAndReadSSE(url)
+    Loop {
+        ; Here we need to loop, since ahk will not handle reconnects on its own on error, we will try to handle them on our own
+        ConnectAndReadSSE(url)
+        Sleep, 1000
+    }
 return
 
 
@@ -47,7 +52,7 @@ ConnectAndReadSSE(url) {
 		return
 	}
 
-	timeout := 120000 ; 120 seconds
+	timeout := 40000 ; 40 seconds (a ping is expected before the timeout)
 
 	DllCall("wininet\InternetSetOption"
 		, "Ptr", hInternet

@@ -10,7 +10,8 @@ if(receiverTitle == "") {
     ExitApp
 }
 global receiver := new talk(receiverTitle) ; "Case Sensitive string of receiver script's WinTitle"
-global url := "http://127.0.0.1:8000/events"
+urlParam = %2%
+global url := urlParam != "" ? urlParam : "http://127.0.0.1:8000/events"
 global buffer := ""
 global hInternet := 0
 global hUrl := 0

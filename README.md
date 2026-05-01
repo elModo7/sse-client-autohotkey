@@ -9,6 +9,11 @@ With this you could send a request to said API and instead of asking in a loop (
 > [!TIP]
 > This can also enable real push notifications to AutoHotkey scripts.
 
+### Crypto panel example
+<img width="930" height="420" alt="19" src="https://github.com/user-attachments/assets/26d09da1-b151-400a-ad05-5b30f818a4da" />
+
+
+### Multiclient example
 <img width="1107" height="463" alt="WindowsTerminal_JrZ6Mj9Iej" src="https://github.com/user-attachments/assets/11f18fe9-4f4e-4b38-ad0d-7025c6200764" />
 
 

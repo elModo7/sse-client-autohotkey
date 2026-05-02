@@ -19,11 +19,11 @@ With this you could send a request to said API and instead of asking in a loop (
 
 ## Requirements
 
-This client requires a SSE server to be running, you can use this one as an example (compiled version in releases):
+This client requires a SSE server to be running (SSE_Server.exe now bundled), you can use this one as an example (compiled version in releases):
 
 https://github.com/elModo7/sse-server-go
 
-Start the server first, then run the AutoHotkey client.
+For the sync version: start the server first, then run the AutoHotkey client (async examples don't care about order of execution).
 
 ## General Considerations
 
